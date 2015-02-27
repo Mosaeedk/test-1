@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">                                            <!--Stylesheet-->
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>                  <!--Fonts-->
+    <link rel="shortcut icon" href="content/icon.png" type="image/png">		 											                        <!--Icon-->
+
+    <!-- SMOOTH SCROLL -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+  <!--..................................................................................................................SLIDER NIVO-->
+    <link rel="stylesheet" href="Nivo/themes/default/default.css" type="text/css" />
+    <link rel="stylesheet" href="Nivo/nivo-slider.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="Nivo/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  <!--.............................................................................................................................-->
+  </head>
+
+<!--..................................................................................................................................-->
+  <body>
+
+
+<div style="min-width: 1000px; margin:  auto;">                                                                     <!--Wrapperdiv-->
+  <div class ="navbar">																								                                                 <!--Navigation-->
+  	    <ul> 
+  	      <li><a href="#About">ABOUT</a></li>
+          <li><a href="#Inspiration">INSPIRATION</a></li>
+          <li><a href="#Work">WORK</a></li>      
+          <li><a href="#Home">HOME</li>
+          </a>
+        </ul>
+   
+  </div>
+    <div id="Home"></div>
+
+<p>
+<p>
+<p>
+<p><img src="images/LOGO FINAL.jpg" width="732" height="410" alt=""/>
+<p>
+<p>
+<p> 
+<p>Welcome to my portfoilio website, My name is Mohammad, I specialise in Web-Design and Branding. 
+<p>Below is a highlight of the work I have produced. Hope you enjoy.
+<p><img src="images/ASOS App 2.jpg" width="240" height="182" alt=""/>
+<img src="images/ASOS Info graphic 3.jpg" width="202" height="133" alt=""/>
+<img src="images/ASOS Info graphic 1.jpg" width="229" height="144" alt=""/>
+<p>
+
+<p class="content style1">&nbsp;</p>
+  <p align="center" class="content style1"><a href="work.html">See more</a></p>
+  

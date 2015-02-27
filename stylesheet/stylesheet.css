@@ -1,0 +1,162 @@
+/*Body Properties*/
+body{
+	margin: centre;
+	font-family: 'Josefin sans', sans-serif;
+	background: #FFFFFF url(images/im01.gif) repeat-x;
+	font-size: 17px;
+	color: #666666;
+	margin-left: 200px;
+	margin-right: 200px;
+
+	
+}
+
+<p>
+background-color: #dddddd;
+	height: 400px;
+	
+	.body h1{
+	padding-top: 60px;
+	margin-left: 120px;
+	margin-right: 130px;
+	color: #359bf0;
+	
+
+}	
+ body p{
+	padding-top: 10px;
+	margin-left: 120px;
+	margin-right: 130px;
+}
+	
+
+/*Navigation Bar*/
+.navbar {
+	background-color: #ffffff;
+	position: fixed;
+    top:0px;
+	padding-left: 30px;
+	padding-right: 40px;
+    max-width: 1400px;
+    }
+.navbar ul {
+	list-style-type: none;
+	
+	overflow: hidden;
+	margin-right: 200px;
+}
+.navbar li {
+	float: right;
+	padding: 0px;
+	font-family:'Josefin sans', sans serif;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 45px;
+	padding-left:30px;
+	padding-right:30px;
+	color:#878787;
+}
+.navbar a{
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	background-color: #ffffff;
+	color:#878787;
+}
+.navbar li a:hover, a:active {
+    display: block;
+    width: 150px;
+    border-radius: 2px;
+    color: #4daaf7;
+    transition: all 0.4s ease;
+}
+.navbar li img{
+	margin-top: -32px;
+	margin-left: -28px; 
+}
+.navgap{
+	height:100px;
+}
+/*infromation.............................................................................................*/
+.Services{
+	margin-left: 70px;
+	margin-right: 100px;
+	min-width: 1400px;
+}
+.Services table{
+	float: left;
+	margin-left: 35px;
+	padding: 15px;
+	border-radius: 2px;
+	background-color:#ffffff;
+	margin-bottom:10px;
+}
+.Services table th{
+	color: #359bf0;
+}
+/*About...........................................................................................*/
+.About{
+	background-color: #dddddd;
+	height: 400px;
+}
+.About h1{
+	padding-top: 60px;
+	margin-left: 120px;
+	margin-right: 130px;
+	color: #359bf0;
+}	
+.About p{
+	padding-top: 10px;
+	margin-left: 120px;
+	margin-right: 130px;
+}
+/*Gallery...........................................................................................*/
+.gallery {
+    /* overflow: visible; */
+	
+width: 800px;
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 200px;
+}
+
+.gallery h1{
+	color: #359bf0;
+	margin-left: 38px;
+	
+}
+
+.gallery a:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+	-transform: scale(1.5);
+
+}
+
+.gallery li {
+float: up;
+width: 25%;
+list-style-type: none
+
+}
+.gallery a {
+display: block;
+   /* padding: 20px; */
+}
+
+.gallery img {
+height: 250;
+width: 300px;
+}
+/*contact...............................................................................................*/
+.footer {
+	height: 100px;
+	background-color:#8b172f;
+	margin-left: -80px;
+	margin-top:-15px;
+	color: white;
+}
+.footer p{
+	text-align: center;
+}
